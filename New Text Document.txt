@@ -1,0 +1,151 @@
+DEAR HR,
+
+IM BHARATH CHOWDARY I HAD COMPLETED BTECH FROM JNTUH IN ECE STREAM , TO BE FRANK I HAVENT SOLVED ANY PROBLEMS SO FAR BUT I HAD GIVEN SOME AWARNESS SEMINARS IN MY COLLAGE TO MY JUNIORS ABOUT WHAT TO CHOOSE AFTER BTECH , BUT AS ACCORDING TO TASK I HAD RECENTLY OBSERVED THAT MY NEIGHBOUR RUNS A MILK DAIRE WHO SELLS MILK PRODUCTS. HE SELLS PRODUCTS TO MARKET VENDORS.
+ONE DAY A SHOP OWNER ASKED TO SEND PRODUCTS OF QUANTITY 15 MILK PACKETS , BUT MY NEIGHBOUR UNDERSTOOD AS 50 INSTEAD OF 15 , THEN HE SENT 50 PRODUCTS TO VENDOR , HERE BY THE SHOP VENDOR SENT BACK THE PRODUCTS TO MY NEIGHBOUR, HE WAS FRUSTATED AS HE LOST MONEY IN TRANSPORTATION AND TIME. THIS SITUATION BEEN REPEATED WITH MANY PEOPLE.SO NOW I DICIDED TO BULID A SIMPLE WEB PAGE SUCH THAT PEOPLE WILL SEND THE LIST OF PRODUCTS WITH QUANTITY  TO MY NEIGHBOUR VIA A WEB PAGE AND HE RECIVES THE MESSAGE IN EMAIL  AND IT GIVE HIM A CLARITY HOW MUCH AN WHAT TO SEND, THIS SAVES TIME AND COST, EVEN WE CAN DO WITH WATSAPP BUT SAVING CONTACTS AND INCREASES THE STORAGE USAGE IN EMAIL IT TAKES LESS SPACE AND EASY TO USE .
+
+
+
+LINK TO WEB PAGE : http://127.0.0.1:5500/index.html
+
+HTML CODE:
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MILK AND CURD ORDER THROUGH FORM</title>
+</head>
+
+<body>
+    <div class="contact_container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="left_container">
+            <!-- Your Access key here. Don't worry this can be public -->
+            <input type="hidden" name="access_key" value="5f0806c0-2d2b-4704-ac59-a421e58b9aac">
+            <div class="contact_lefttitle">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+            <input class="contactinput" type="text" name="name" placeholder="Enter your Name">
+            <input class="contactinput" type="number" name="number" placeholder="Enter Your Mobile Number ">
+            <textarea class="msg" name="Message" placeholder="List of Product"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="right">
+            <img src="https://th.bing.com/th/id/OIP.GsKhH_V9jG86IzopgdaUdQHaHa?w=194&h=194&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                alt="LOGO">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+CSS :
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#87cEEB, #FFC5c5);
+}
+
+.contact_container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+
+}
+
+.left_container h2 {
+    font-weight: 700;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+
+.left_container hr {
+    border: none;
+    width: 120px;
+    background-color: #a363aa;
+    height: 5px;
+    border-radius: 10px;
+
+
+}
+
+.contactinput {
+    width: 400px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    padding-left: 25px;
+    color: #666;
+    font-weight: 600;
+
+}
+
+.left_container textarea {
+    height: 140px;
+    width: 400px;
+    outline: none;
+    border-radius: 50px;
+    color: #666;
+    font-weight: 600;
+    padding-left: 25px;
+
+}
+
+.left_container button {
+    border: 0;
+    outline: none;
+    background: linear-gradient(270deg,#ff994f,#fabd56);
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+
+
+}
+@media (max-width:800px){
+    .right{
+        display: none;
+
+    }
+}
+.right{
+    padding-left: 80px;
+    
+}
+
+
+
+mail id of reciving messages : milkvendor123@gmail.com  password : Milk@123$
+
+
+
